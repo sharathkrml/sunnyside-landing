@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/sunnyside-landing/static/css/main.5d6a93b7.chunk.css",
+    "main.js": "/sunnyside-landing/static/js/main.525e466c.chunk.js",
+    "main.js.map": "/sunnyside-landing/static/js/main.525e466c.chunk.js.map",
+    "runtime-main.js": "/sunnyside-landing/static/js/runtime-main.c0c620fa.js",
+    "runtime-main.js.map": "/sunnyside-landing/static/js/runtime-main.c0c620fa.js.map",
+    "static/js/2.80080493.chunk.js": "/sunnyside-landing/static/js/2.80080493.chunk.js",
+    "static/js/2.80080493.chunk.js.map": "/sunnyside-landing/static/js/2.80080493.chunk.js.map",
+    "static/js/3.2b2056d0.chunk.js": "/sunnyside-landing/static/js/3.2b2056d0.chunk.js",
+    "static/js/3.2b2056d0.chunk.js.map": "/sunnyside-landing/static/js/3.2b2056d0.chunk.js.map",
+    "index.html": "/sunnyside-landing/index.html",
+    "static/css/main.5d6a93b7.chunk.css.map": "/sunnyside-landing/static/css/main.5d6a93b7.chunk.css.map",
+    "static/js/2.80080493.chunk.js.LICENSE.txt": "/sunnyside-landing/static/js/2.80080493.chunk.js.LICENSE.txt",
+    "static/media/icon-arrow-down.979ef07a.svg": "/sunnyside-landing/static/media/icon-arrow-down.979ef07a.svg",
+    "static/media/icon-facebook.101bd07e.svg": "/sunnyside-landing/static/media/icon-facebook.101bd07e.svg",
+    "static/media/icon-hamburger.7764b7eb.svg": "/sunnyside-landing/static/media/icon-hamburger.7764b7eb.svg",
+    "static/media/icon-instagram.7d97118a.svg": "/sunnyside-landing/static/media/icon-instagram.7d97118a.svg",
+    "static/media/icon-pinterest.fd8b84da.svg": "/sunnyside-landing/static/media/icon-pinterest.fd8b84da.svg",
+    "static/media/icon-twitter.23df5d42.svg": "/sunnyside-landing/static/media/icon-twitter.23df5d42.svg",
+    "static/media/image-gallery-cone.461ff421.jpg": "/sunnyside-landing/static/media/image-gallery-cone.461ff421.jpg",
+    "static/media/image-gallery-milkbottles.df1d9d84.jpg": "/sunnyside-landing/static/media/image-gallery-milkbottles.df1d9d84.jpg",
+    "static/media/image-gallery-orange.49f4212b.jpg": "/sunnyside-landing/static/media/image-gallery-orange.49f4212b.jpg",
+    "static/media/image-gallery-sugarcubes.09b72f4f.jpg": "/sunnyside-landing/static/media/image-gallery-sugarcubes.09b72f4f.jpg",
+    "static/media/image-graphic-design.7ac8bdf0.jpg": "/sunnyside-landing/static/media/image-graphic-design.7ac8bdf0.jpg",
+    "static/media/App.css": "/sunnyside-landing/static/media/image-header.49b52ffa.jpg",
+    "static/media/image-photography.104cf40b.jpg": "/sunnyside-landing/static/media/image-photography.104cf40b.jpg",
+    "static/media/logo.4271b899.svg": "/sunnyside-landing/static/media/logo.4271b899.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c0c620fa.js",
+    "static/js/2.80080493.chunk.js",
+    "static/css/main.5d6a93b7.chunk.css",
+    "static/js/main.525e466c.chunk.js"
+  ]
+}
