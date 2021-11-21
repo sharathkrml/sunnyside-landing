@@ -10,6 +10,8 @@
   --Dark-grayish-blue: hsl(232, 10%, 55%);
   --Grayish-blue: hsl(210, 4%, 67%);
   --White: hsl(0, 0%, 100%);
+  --fs-logo: 1.5rem;
+  --fs-menu: 0.9rem;
 }
 * {
   box-sizing: border-box;
@@ -19,7 +21,7 @@
   padding: 0;
 }
 body {
-  background-color: var(--footer);
+  /* background-color: var(--footer); */
 }
 header {
   position: fixed;
@@ -37,7 +39,7 @@ nav {
   left: 5%;
   display: none;
 }
-.active{
+.active {
   display: block;
 }
 nav:before {
@@ -58,8 +60,8 @@ nav ul {
 }
 nav a {
   text-decoration: none;
-  font-size: 0.9rem;
-  color: rgba(0, 0,0, 0.5);
+  font-size: var(--fs-menu);
+  color: rgba(0, 0, 0, 0.5);
 }
 nav li:hover {
   background: var(--Yellow);
@@ -76,7 +78,7 @@ nav li {
   top: 15%;
   left: 5%;
   color: var(--White);
-  font-size: 1.5rem;
+  font-size: var(--fs-logo);
 }
 .hamburger {
   position: absolute;
@@ -87,5 +89,62 @@ nav li {
 }
 .content {
   background: url("./assets/images/desktop/image-header.jpg");
-  height: 200vh;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-body {
+  text-align: center;
+}
+.content-head {
+  font-family: "Fraunces", serif;
+  color: var(--White);
+  font-size: 3.5rem;
+}
+.arrow-image {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  :root {
+    --fs-logo: 1.7rem;
+    --fs-menu: 1rem;
+  }
+  br{
+    display: none;
+  }
+  header {
+    display: grid;
+    grid-template-columns: 1fr auto minmax(500px, 1fr) 1fr;
+  }
+  .logo {
+    grid-column: 2 / span 1;
+  }
+  nav {
+    all: unset;
+    grid-column: 3 / span 1;
+  }
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  nav li {
+    margin: 0;
+    padding: 0;
+  }
+  nav li:hover {
+    background-color: var(--White);
+  }
+
+  nav a {
+    margin: 1rem;
+  }
+  .hamburger {
+    display: none;
+  }
 }

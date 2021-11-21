@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import hamBurger from "./assets/images/icon-hamburger.svg";
+import bottomArrow from "./assets/images/icon-arrow-down.svg";
 function App() {
   const [nav, setNav] = useState(false);
   useEffect(() => {
@@ -33,7 +34,17 @@ function App() {
           </ul>
         </nav>
       </header>
-      <div className="content"></div>
+      <div className="content">
+        <div className="content-body">
+          <div className="content-head">
+            WE ARE <br />
+            CREATIVES
+          </div>
+          <div className="arrow-image">
+            <img src={bottomArrow} alt="bottomArrow" />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
