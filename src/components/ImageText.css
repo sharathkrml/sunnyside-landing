@@ -1,0 +1,18 @@
+.image-text {
+  width: 100%;
+  min-height: 90vh;
+  text-align: center;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.img-text-head{
+    font-family: var(--body-head-font);
+    font-size: var(--fs-img-text-head);
+}
+.img-text-body{
+    margin: 2rem auto 3rem auto;
+    max-width: 80%;
+}

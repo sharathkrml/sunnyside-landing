@@ -4,9 +4,12 @@ import hamBurger from "./assets/images/icon-hamburger.svg";
 import bottomArrow from "./assets/images/icon-arrow-down.svg";
 import eggImg from "./assets/images/desktop/image-transform.jpg";
 import standOut from "./assets/images/desktop/image-stand-out.jpg";
+import graphicDes from "./assets/images/desktop/image-graphic-design.jpg";
+import photoGraphy from "./assets/images/desktop/image-photography.jpg";
 
 import ImageOnly from "./components/ImageOnly";
 import TextOnly from "./components/TextOnly";
+import ImageText from "./components/ImageText";
 
 function App() {
   const [nav, setNav] = useState(false);
@@ -63,6 +66,17 @@ function App() {
         <TextOnly
           head="Stand out to the right audience"
           body="Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places."
+        />
+        <ImageText
+          img={graphicDes}
+          head="Graphic Design"
+          body="Great design makes you memorable. We deliver artwork that underscores
+        your brand message and captures potential clients’ attention."
+        />
+        <ImageText
+          img={photoGraphy}
+          head="Photography"
+          body=" Increase your credibility by getting the most stunning, high-quality photos that improve your business image."
         />
       </div>
     </div>
