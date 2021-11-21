@@ -1,15 +1,27 @@
 import { useEffect, useState } from "react";
 import "./App.css";
+import logo from "./assets/images/logo.svg";
 import hamBurger from "./assets/images/icon-hamburger.svg";
 import bottomArrow from "./assets/images/icon-arrow-down.svg";
 import eggImg from "./assets/images/desktop/image-transform.jpg";
 import standOut from "./assets/images/desktop/image-stand-out.jpg";
 import graphicDes from "./assets/images/desktop/image-graphic-design.jpg";
 import photoGraphy from "./assets/images/desktop/image-photography.jpg";
+// client
 import emily from "./assets/images/image-emily.jpg";
 import thomas from "./assets/images/image-thomas.jpg";
 import jennie from "./assets/images/image-jennie.jpg";
-
+// image grid
+import milkbottles from "./assets/images/desktop/image-gallery-milkbottles.jpg";
+import orange from "./assets/images/desktop/image-gallery-orange.jpg";
+import cone from "./assets/images/desktop/image-gallery-cone.jpg";
+import sugarcubes from "./assets/images/desktop/image-gallery-sugarcubes.jpg";
+// social
+import facebook from "./assets/images/icon-facebook.svg";
+import instagram from "./assets/images/icon-instagram.svg";
+import twitter from "./assets/images/icon-twitter.svg";
+import pinterest from "./assets/images/icon-pinterest.svg";
+// components
 import ImageOnly from "./components/ImageOnly";
 import TextOnly from "./components/TextOnly";
 import ImageText from "./components/ImageText";
@@ -105,6 +117,26 @@ function App() {
           occupation="Business Owner"
         />
       </div>
+      <div className="image-grid">
+        <img src={milkbottles} alt="milkbottles" />
+        <img src={orange} alt="orange" />
+        <img src={cone} alt="cone" />
+        <img src={sugarcubes} alt="sugarcubes" />
+      </div>
+      <footer>
+        <div className="footer-logo">sunnyside</div>
+        <div className="footer-links">
+          <a href="#">About </a>
+          <a href="#">Services</a>
+          <a href="#">Projects</a>
+        </div>
+        <div className="footer-social">
+          <img src={facebook} alt="facebook" />
+          <img src={instagram} alt="instagram" />
+          <img src={twitter} alt="twitter" />
+          <img src={pinterest} alt="pinterest" />
+        </div>
+      </footer>
     </div>
   );
 }

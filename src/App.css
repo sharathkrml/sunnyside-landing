@@ -12,9 +12,9 @@
   --White: hsl(0, 0%, 100%);
   --fs-logo: 1.5rem;
   --fs-menu: 0.9rem;
-  --fs-text-head:2rem;
-  --fs-img-text-head:1.6rem;
-  --line-height-text:1.5rem;
+  --fs-text-head: 2rem;
+  --fs-img-text-head: 1.6rem;
+  --line-height-text: 1.5rem;
   --body-head-font: "Fraunces", serif;
 }
 * {
@@ -31,7 +31,8 @@ header {
   position: fixed;
   z-index: 999;
   width: 100%;
-  height: 6%;
+  height: 8%;
+  background: #3ebfff;
 }
 nav {
   background-color: var(--White);
@@ -114,12 +115,51 @@ nav li {
   display: flex;
   justify-content: center;
 }
-.testimonials-head{
+.testimonials-head {
   text-align: center;
   text-transform: uppercase;
   font-family: var(--body-head-font);
   letter-spacing: 0.3em;
   margin: 3em 0 0 0;
+}
+.image-grid {
+  margin-top: 2em;
+  width: 100%;
+  height: 100vw;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+}
+.image-grid img {
+  width: 100%;
+  height: 100%;
+}
+footer {
+  color: #2c7566;
+  background: var(--footer);
+}
+.footer-logo{
+  padding-top: 1em;
+  font-size: var(--fs-logo);
+  text-align: center;
+  font-weight: bold;
+}
+.footer-links{
+  margin: 2em 0;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-links a{
+  text-decoration: none;
+  color: #2c7566;
+}
+.footer-social{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2em;
+}
+.footer-social img{
+  margin: 0 0.5em;
 }
 @media (min-width: 768px) {
   :root {
