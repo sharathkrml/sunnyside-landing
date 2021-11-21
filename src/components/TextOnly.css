@@ -20,3 +20,8 @@
   margin: 3rem 0 3rem 0;
   font-family: var(--body-head-font);
 }
+@media (min-width: 768px) {
+  .text-only {
+    min-height: auto;
+  }
+}

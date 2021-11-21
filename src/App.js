@@ -73,6 +73,7 @@ function App() {
       <div className="body-grid">
         <ImageOnly img={eggImg} />
         <TextOnly
+          elename="transform"
           head="Transform your brand"
           body=" We are a full-service creative agency specializing in helping brands
         grow fast. Engage your clients through compelling visuals that do most
@@ -80,6 +81,7 @@ function App() {
         />
         <ImageOnly img={standOut} />
         <TextOnly
+          elename="standout"
           head="Stand out to the right audience"
           body="Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places."
         />
@@ -96,7 +98,7 @@ function App() {
         />
       </div>
       <div className="testimonials-head">Client testimonials</div>
-      <div className="textimonials">
+      <div className="testimonials">
         <ClientCard
           img={emily}
           response="We put our trust in Sunnyside and they delivered, making sure our needs
