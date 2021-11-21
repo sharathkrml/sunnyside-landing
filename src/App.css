@@ -12,6 +12,9 @@
   --White: hsl(0, 0%, 100%);
   --fs-logo: 1.5rem;
   --fs-menu: 0.9rem;
+  --fs-text-head:2rem;
+  --line-height-text:1.5rem;
+  --body-head-font: "Fraunces", serif;
 }
 * {
   box-sizing: border-box;
@@ -102,7 +105,7 @@ nav li {
   text-align: center;
 }
 .content-head {
-  font-family: "Fraunces", serif;
+  font-family: var(--body-head-font);
   color: var(--White);
   font-size: 3.5rem;
 }
@@ -115,7 +118,7 @@ nav li {
     --fs-logo: 1.7rem;
     --fs-menu: 1rem;
   }
-  br{
+  br {
     display: none;
   }
   header {

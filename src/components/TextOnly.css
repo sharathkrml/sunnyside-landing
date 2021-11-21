@@ -1,0 +1,22 @@
+.text-only {
+  width: 100%;
+  min-height: 400px;
+  text-align: center;
+}
+.text-head {
+  font-family: var(--body-head-font);
+  font-size: var(--fs-text-head);
+  max-width: 80%;
+  margin: 3rem auto 2rem auto;
+}
+.text-body {
+  text-align: center;
+  line-height: var(--line-height-text);
+  max-width: 80%;
+  margin: 0 auto;
+}
+.learn-more {
+  text-transform: uppercase;
+  margin: 3rem 0 3rem 0;
+  font-family: var(--body-head-font);
+}
