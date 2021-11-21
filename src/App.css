@@ -114,6 +114,13 @@ nav li {
   display: flex;
   justify-content: center;
 }
+.testimonials-head{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: var(--body-head-font);
+  letter-spacing: 0.3em;
+  margin: 3em 0 0 0;
+}
 @media (min-width: 768px) {
   :root {
     --fs-logo: 1.7rem;

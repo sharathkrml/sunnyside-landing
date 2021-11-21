@@ -6,10 +6,14 @@ import eggImg from "./assets/images/desktop/image-transform.jpg";
 import standOut from "./assets/images/desktop/image-stand-out.jpg";
 import graphicDes from "./assets/images/desktop/image-graphic-design.jpg";
 import photoGraphy from "./assets/images/desktop/image-photography.jpg";
+import emily from "./assets/images/image-emily.jpg";
+import thomas from "./assets/images/image-thomas.jpg";
+import jennie from "./assets/images/image-jennie.jpg";
 
 import ImageOnly from "./components/ImageOnly";
 import TextOnly from "./components/TextOnly";
 import ImageText from "./components/ImageText";
+import ClientCard from "./components/ClientCard";
 
 function App() {
   const [nav, setNav] = useState(false);
@@ -77,6 +81,28 @@ function App() {
           img={photoGraphy}
           head="Photography"
           body=" Increase your credibility by getting the most stunning, high-quality photos that improve your business image."
+        />
+      </div>
+      <div className="testimonials-head">Client testimonials</div>
+      <div className="textimonials">
+        <ClientCard
+          img={emily}
+          response="We put our trust in Sunnyside and they delivered, making sure our needs
+        were met and deadlines were always hit."
+          name="Emily R."
+          occupation="Marketing Director"
+        />
+        <ClientCard
+          img={thomas}
+          response=" Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience. "
+          name="Thomas S. "
+          occupation="Chief Operating Officer "
+        />
+        <ClientCard
+          img={jennie}
+          response="Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended! "
+          name="Jennie F. "
+          occupation="Business Owner"
         />
       </div>
     </div>

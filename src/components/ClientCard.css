@@ -1,0 +1,17 @@
+.client-img {
+  width: 4em;
+  margin: 3em auto;
+}
+.client-img img {
+  border-radius: 50%;
+  width: 100%;
+}
+.client-response {
+  max-width: 80%;
+  margin: 2em auto;
+}
+.client-response,
+.client-name,
+.client-occupation {
+  text-align: center;
+}
