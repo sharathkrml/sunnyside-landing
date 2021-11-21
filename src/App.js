@@ -1,12 +1,39 @@
-import { useState } from 'react';
-import './App.css';
-import NavBar from './components/NavBar';
-
+import { useEffect, useState } from "react";
+import "./App.css";
+import hamBurger from "./assets/images/icon-hamburger.svg";
 function App() {
-  const [navToggle, setNavToggle] = useState(false)
+  const [nav, setNav] = useState(false);
+  useEffect(() => {
+    console.log(nav);
+  }, [nav]);
   return (
     <div className="App">
-     <NavBar navToggle={navToggle} setNavToggle={setNavToggle}/>
+      <header>
+        <h1 className="logo">sunnyside</h1>
+        <img
+          onClick={() => setNav(!nav)}
+          className="hamburger"
+          src={hamBurger}
+          alt="ham"
+        />
+        <nav className={nav ? "active" : ""}>
+          <ul>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Services</a>
+            </li>
+            <li>
+              <a href="#">Projects</a>
+            </li>
+            <li>
+              <a href="#">Contract</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div className="content"></div>
     </div>
   );
 }

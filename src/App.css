@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+:root {
+  --Soft-red: hsl(7, 99%, 70%);
+  --Yellow: hsl(51, 100%, 49%);
+  --graphic-design-text: hsl(167, 40%, 24%);
+  --photography-text: hsl(198, 62%, 26%);
+  --footer: hsl(168, 34%, 41%);
+  --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+  --Very-dark-grayish-blue: hsl(213, 9%, 39%);
+  --Dark-grayish-blue: hsl(232, 10%, 55%);
+  --Grayish-blue: hsl(210, 4%, 67%);
+  --White: hsl(0, 0%, 100%);
+}
+* {
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+  /* font-family: 'Fraunces', serif; */
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: var(--footer);
+}
+header {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 6%;
+}
+nav {
+  background-color: var(--White);
+  width: 90%;
+  /* margin: auto 0; */
+  position: absolute;
+  text-align: left;
+  top: 130%;
+  left: 5%;
+  display: none;
+}
+.active{
+  display: block;
+}
+nav:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid var(--White);
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid var(--White);
+  right: 0px;
+  top: -20px;
+}
+nav ul {
+  list-style: none;
+  margin: 1em 0;
+}
+nav a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: rgba(0, 0,0, 0.5);
+}
+nav li:hover {
+  background: var(--Yellow);
+  text-transform: uppercase;
+}
+nav li {
+  margin: 0.2em 18%;
+  border-radius: 25px;
+  padding: 10px;
+  text-align: center;
+}
+.logo {
+  position: relative;
+  top: 15%;
+  left: 5%;
+  color: var(--White);
+  font-size: 1.5rem;
+}
+.hamburger {
+  position: absolute;
+  top: 33%;
+  right: 5%;
+  width: 1rem;
+  cursor: pointer;
+}
+.content {
+  background: url("./assets/images/desktop/image-header.jpg");
+  height: 200vh;
+}
