@@ -135,6 +135,8 @@ nav li {
   height: 100%;
 }
 footer {
+  position: relative;
+  width: 100%;
   color: #2c7566;
   background: var(--footer);
 }
@@ -219,14 +221,14 @@ img {
     max-width: 80%;
     margin: 0 auto;
   }
-  .image-grid{
+  .image-grid {
     display: flex;
     height: auto;
   }
-  .footer-links{
+  .footer-links {
     justify-content: center;
   }
-  .footer-links a{
+  .footer-links a {
     margin: 0 1em;
   }
 }
