@@ -9,6 +9,15 @@
 .client-response {
   max-width: 80%;
   margin: 2em auto;
+  color: rgba(0,0,0,0.6);
+}
+.client-name{
+  font-family: var(--body-head-font);
+}
+.client-occupation{
+  margin-top: 8px;
+  font-size: small;
+  color: rgba(0,0,0,0.6);
 }
 .client-response,
 .client-name,

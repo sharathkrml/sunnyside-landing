@@ -88,12 +88,14 @@ function App() {
         <ImageText
           img={graphicDes}
           head="Graphic Design"
+          class="graphic-design"
           body="Great design makes you memorable. We deliver artwork that underscores
         your brand message and captures potential clients’ attention."
         />
         <ImageText
           img={photoGraphy}
           head="Photography"
+          class="photography"
           body=" Increase your credibility by getting the most stunning, high-quality photos that improve your business image."
         />
       </div>

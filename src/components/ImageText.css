@@ -16,3 +16,9 @@
     margin: 2rem auto 3rem auto;
     max-width: 80%;
 }
+.graphic-design{
+  color: var(--graphic-design-text);
+}
+.photography{
+  color: var(--photography-text);
+}
