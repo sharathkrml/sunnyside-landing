@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sunnyside-landing/static/css/main.5d6a93b7.chunk.css",
+    "main.css": "/sunnyside-landing/static/css/main.91a2d113.chunk.css",
     "main.js": "/sunnyside-landing/static/js/main.525e466c.chunk.js",
     "main.js.map": "/sunnyside-landing/static/js/main.525e466c.chunk.js.map",
     "runtime-main.js": "/sunnyside-landing/static/js/runtime-main.c0c620fa.js",
@@ -10,7 +10,7 @@
     "static/js/3.2b2056d0.chunk.js": "/sunnyside-landing/static/js/3.2b2056d0.chunk.js",
     "static/js/3.2b2056d0.chunk.js.map": "/sunnyside-landing/static/js/3.2b2056d0.chunk.js.map",
     "index.html": "/sunnyside-landing/index.html",
-    "static/css/main.5d6a93b7.chunk.css.map": "/sunnyside-landing/static/css/main.5d6a93b7.chunk.css.map",
+    "static/css/main.91a2d113.chunk.css.map": "/sunnyside-landing/static/css/main.91a2d113.chunk.css.map",
     "static/js/2.80080493.chunk.js.LICENSE.txt": "/sunnyside-landing/static/js/2.80080493.chunk.js.LICENSE.txt",
     "static/media/icon-arrow-down.979ef07a.svg": "/sunnyside-landing/static/media/icon-arrow-down.979ef07a.svg",
     "static/media/icon-facebook.101bd07e.svg": "/sunnyside-landing/static/media/icon-facebook.101bd07e.svg",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.c0c620fa.js",
     "static/js/2.80080493.chunk.js",
-    "static/css/main.5d6a93b7.chunk.css",
+    "static/css/main.91a2d113.chunk.css",
     "static/js/main.525e466c.chunk.js"
   ]
 }
